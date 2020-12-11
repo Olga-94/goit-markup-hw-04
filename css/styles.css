@@ -258,12 +258,13 @@ color: #ffffff;}
 .social-links-list { 
   display: flex;
   justify-content: space-between;
+  
+  align-items: center;
 }
 
 .social-list-link {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
