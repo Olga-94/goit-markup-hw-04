@@ -255,16 +255,16 @@ color: #ffffff;}
   border-radius: 0px 0px 4px 4px;
 }
 
-.social-links-list { 
+.social-list { 
   display: flex;
   justify-content: space-between;
   
-  align-items: center;
 }
 
 .social-list-link {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -273,6 +273,7 @@ color: #ffffff;}
 .social-list-icon {
 width: 20px;
   height: 20px;
+  
 }
   
 .decription {
