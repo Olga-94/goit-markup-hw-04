@@ -261,7 +261,7 @@ color: #ffffff;}
 }
 
 .social-list-link {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
