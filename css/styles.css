@@ -302,6 +302,7 @@ width: 20px;
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--accent-color);
+  color: #ffffff;
 }
 /*===========END SECTION OUR TEAM=========*/
 
