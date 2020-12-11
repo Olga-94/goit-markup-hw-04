@@ -299,7 +299,9 @@ width: 20px;
   list-style: none;
 }
 
-
+.social-icons {
+  padding-top: 16px;
+}
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--accent-color);
