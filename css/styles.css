@@ -302,12 +302,16 @@ width: 20px;
 .social-icons {
   padding-top: 16px;
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--accent-color);
-  color: #ffffff;
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color:  var(--accent-color);
 }
-/*===========END SECTION OUR TEAM=========*/
+.social-list-link:hover {
+  fill: #ffffff;
+}
+
+/*fill: #ffffff;===========END SECTION OUR TEAM=========*/
 
 /*===========FOOTER=========*/
 .footer {
