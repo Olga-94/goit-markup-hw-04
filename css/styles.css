@@ -504,7 +504,7 @@ padding: 6px 22px;
   color: #757575;
 }
 
-.portfolio-buttons {
+section .portfolio-buttons {
   padding-top: 94px;
   padding-bottom: 34px;
 }
@@ -534,7 +534,15 @@ margin-bottom: 37px;
   min-width: 322px;
   border: 1px solid #eeeeee;
 }
-
+.portfolio-card-link {
+  display: block;
+}
+.portfolio-card-link:hover,
+.portfolio-card-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
+}
 
   
 /*================== END PORTFOLIO==========*/
