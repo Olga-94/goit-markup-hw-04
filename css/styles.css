@@ -405,7 +405,7 @@ height: 20px;
   color: #ffffff;
   margin-bottom: 9px;
 }
-.footer-list-item {
+.footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-list-link {
