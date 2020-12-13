@@ -87,8 +87,6 @@ body {
 
 .address-icon {
   margin-right: 10px;
- 
-
 }
 .nav-list-link,
 .header-mail-link,
@@ -108,6 +106,7 @@ body {
   color: var(--accent-color);
 }
 
+
 .buttons-list-item:hover,
 .buttons-list-item:focus {
   background-color: var(--accent-color);
@@ -119,7 +118,6 @@ color: #ffffff;}
 .header-mail-link,
 .header-tel-link {
   color: #757575;
-  align-items: center;
 }
 .header-mail:hover .address-icon,
 .header-tel:hover .address-icon,
@@ -302,12 +300,11 @@ color: #ffffff;}
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
-  color: #AFB1B8;
+  fill: #AFB1B8;
 }
 .social-list-icon {
 width: 20px;
-  height: 20px;
+height: 20px;
 }
   
 .decription {
@@ -356,7 +353,6 @@ width: 20px;
 
 }
 
-
 .footer .address {
   margin-top: 20px;
   width: 231px;
@@ -382,7 +378,46 @@ width: 20px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.footer-social-box {
+  
+}
+.footer-social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: var(--accent-color);
+  
+}
+.footer-social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+.footer-social-list { 
+  display: flex; 
+}
+.follow-us {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.follow-us {
+  display: inline-block;
+  margin-bottom: 20px;}
+
+  .footer-social-item:not(:last-child) {
+    margin-right: 10px;}
 /*===========END FOOTER=========*/
 
 /*================== PORTFOLIO==========*/
